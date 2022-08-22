@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./develop/style.css"/>
+</head>
+<body>
+    <header>
+        Weather Dashboard
+    </header>
+    
+    <section> <!-- SEARCH SECTION -->
+        <h2>
+            Search for a City:
+        </h2>
+        <input type="text">
+        <button>Search</button>
+        <p>stored cities</p> <!-- local storage returns --> 
+    </section>
+
+    <section id="currentDay"> <!-- DISPLAY CURRENT DAY RETURNED RESULTS -->
+        <P>returned city</P>
+        <p>current date</p>
+        <p>returned temp</p>
+        <p>returned windspeed</p>
+        <p>returned humidity</p>
+        <p>returned UV index</p>
+    </section>
+
+    <section> <!-- DISPLAY FIVE DAY FORECAST-->
+        <h3>
+            5-Day Forecast
+        </h3>
+        <div id="day2"> <!-- Day 2 -->
+            <p>date</p>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+        </div>
+        <div id="day3"> <!-- Day 3 -->
+            <p>date</p>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+        </div>
+        <div id="day4"> <!-- Day 4 -->
+            <p>date</p>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+        </div>
+        <div id="day5"> <!-- Day 5 -->
+            <p>date</p>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+        </div>
+        <div id="day6"> <!-- Day 6 -->
+            <p>date</p>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+        </div>
+    </section>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
