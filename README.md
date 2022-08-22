@@ -1,1 +1,1 @@
-# ch06_weatjer_app
+# ch06_weather_app
