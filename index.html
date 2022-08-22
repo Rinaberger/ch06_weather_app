@@ -12,16 +12,16 @@
         Weather Dashboard
     </header>
     
-    <section> <!-- SEARCH SECTION -->
+    <section id="searchBox" class="search_section_box"> <!-- SEARCH SECTION -->
         <h2>
             Search for a City:
         </h2>
-        <input type="text">
-        <button>Search</button>
-        <p>stored cities</p> <!-- local storage returns --> 
+        <input type="text" id="inputCity" class="input_city">
+        <button id="searchBtn" class="search_button">Search</button>
+        <p id="storedCity" class="storedCity">stored cities</p> <!-- local storage returns --> 
     </section>
 
-    <section id="currentDay"> <!-- DISPLAY CURRENT DAY RETURNED RESULTS -->
+    <section id="currentDayBox" class="current_box"> <!-- DISPLAY CURRENT DAY RETURNED RESULTS -->
         <P>returned city</P>
         <p>current date</p>
         <p>returned temp</p>
@@ -30,35 +30,35 @@
         <p>returned UV index</p>
     </section>
 
-    <section> <!-- DISPLAY FIVE DAY FORECAST-->
+    <section id="5DayBox" class="5dayBox"> <!-- DISPLAY FIVE DAY FORECAST-->
         <h3>
             5-Day Forecast
         </h3>
-        <div id="day2"> <!-- Day 2 -->
+        <div id="day2" class="5day day2"> <!-- Day 2 -->
             <p>date</p>
             <p>temp</p>
             <p>wind</p>
             <p>humidity</p>
         </div>
-        <div id="day3"> <!-- Day 3 -->
+        <div id="day3" class="5day day3"> <!-- Day 3 -->
             <p>date</p>
             <p>temp</p>
             <p>wind</p>
             <p>humidity</p>
         </div>
-        <div id="day4"> <!-- Day 4 -->
+        <div id="day4" class="5day day4"> <!-- Day 4 -->
             <p>date</p>
             <p>temp</p>
             <p>wind</p>
             <p>humidity</p>
         </div>
-        <div id="day5"> <!-- Day 5 -->
+        <div id="day5" class="5day day5"> <!-- Day 5 -->
             <p>date</p>
             <p>temp</p>
             <p>wind</p>
             <p>humidity</p>
         </div>
-        <div id="day6"> <!-- Day 6 -->
+        <div id="day6" class="5day day6"> <!-- Day 6 -->
             <p>date</p>
             <p>temp</p>
             <p>wind</p>
