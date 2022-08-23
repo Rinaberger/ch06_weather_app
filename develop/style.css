@@ -62,6 +62,67 @@ header {
     padding-bottom: 10px;
 }
 
+.current_box {
+    border: solid;
+    border-color: black;
+    border-radius: 15px;
+    position:absolute;
+    left: 375px;
+    width: 70%;
+    top: 120px;
+    padding-left: 10px;
+}
+
+.five_day_box {
+    border: none;
+    border-color: black;
+    border-radius: 15px;
+    position:absolute;
+    left: 375px;
+    width: 70%;
+    top: 375px;
+    padding-left: 10px;
+}
+
+.fiveday {
+    border: solid;
+    border-color: black;
+    border-radius: 15px;
+    padding-left: 10px;    
+}
+
+.daytwo {
+    position:absolute;
+    width: 150px;    
+}
+
+.daythree {
+    position:absolute;
+    width: 150px;
+    left: 225px; 
+}
+
+.dayfour {
+    position:absolute;
+    width: 150px;
+    left: 450px; 
+}
+
+.dayfive {
+    position:absolute;
+    width: 150px;
+    left: 675px; 
+}
+
+.daysix {
+    position:absolute;
+    width: 150px;
+    left: 900px; 
+}
+
+
+
+
 
 
 
