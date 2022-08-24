@@ -5,7 +5,7 @@
 
 // Get city/state data
 var getLocation = async (city) => {
-    var url =`http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`;
+    var url =`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`;
     var response = await fetch(url);
     var data = await response.json();
 
