@@ -74,7 +74,7 @@ var getHistory = () => {
     var storage = JSON.parse(localStorage.getItem('weatherHistory'))
     storedCities.textContent = ''
     if (storage === null) {
-        storedCities.textContent = 'No History'
+        storedCities.textContent = '  No Previous Searches'
         return
     }
 
