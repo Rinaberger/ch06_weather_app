@@ -17,9 +17,9 @@
             Search for a City:
         </h2>
         <input type="text" id="inputCity" class="input_city">
-        <input type="text" id="inputState" class="input_city">      
+        <!-- <input type="text" id="inputState" class="input_state">       -->
         <button id="searchBtn" class="search_button">Search</button>
-        <p id="storedCity" class="stored_city">stored cities</p> <!-- local storage returns --> 
+        <div id="storedCity" class="stored_city"></div> <!-- local storage returns --> 
     </section>
 
     <section id="currentDayBox" class="current_box"> <!-- DISPLAY CURRENT DAY RETURNED RESULTS -->
@@ -31,47 +31,26 @@
         <p class="current_UV details">returned UV index</p>
     </section>
 
-    <section id="fiveDayBox" class="five_day_box"> <!-- DISPLAY FIVE DAY FORECAST-->
+    <section class = fivedayheader>
         <h3>
             5-Day Forecast
         </h3>
-        <div id="day2" class="fiveday daytwo"> <!-- Day 2 -->
-            <h4 class="date">date</h4>
-            <i class="icon">?</i>
-            <p class="other">temp</p>
-            <p class="other">wind</p>
-            <p class="other">humidity</p>
-        </div>
-        <div id="day3" class="fiveday daythree"> <!-- Day 3 -->
-            <h4 class="date">date</h4>
-            <i class="icon">?</i>
-            <p class="other">temp</p>
-            <p class="other">wind</p>
-            <p class="other">humidity</p>
-        </div>
-        <div id="day4" class="fiveday dayfour"> <!-- Day 4 -->
-            <h4 class="date">date</h4>
-            <i class="icon">?</i>
-            <p class="other">temp</p>
-            <p class="other">wind</p>
-            <p class="other">humidity</p>
-        </div>
-        <div id="day5" class="fiveday dayfive"> <!-- Day 5 -->
-            <h4 class="date">date</h4>
-            <i class="icon">?</i>
-            <p class="other">temp</p>
-            <p class="other">wind</p>
-            <p class="other">humidity</p>
-        </div>
-        <div id="day6" class="fiveday daysix"> <!-- Day 6 -->
-            <h4 class="date">date</h4>
-            <i class="icon">?</i>
-            <p class="other">temp</p>
-            <p class="other">wind</p>
-            <p class="other">humidity</p>
-        </div>
     </section>
 
-    <script src="./assets/script.js"></script>
+    <section id="fiveDayBox" class="five_day_box"> <!-- DISPLAY FIVE DAY FORECAST-->
+        
+        <!-- <div id="day2" class="fiveday daytwo"> Day 2 -->
+            <!-- <h4 class="date">date</h4> -->
+            <!-- <i class="icon">?</i> -->
+            <!-- <p class="other">temp</p> -->
+            <!-- <p class="other">wind</p> -->
+            <!-- <p class="other">humidity</p> -->
+        <!-- </div> -->
+       
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="./develop/script.js"></script>
+
 </body>
 </html>

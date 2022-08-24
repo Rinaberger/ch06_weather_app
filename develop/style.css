@@ -15,7 +15,7 @@ header {
     font-size: 50px;
     border:solid;
     border-color: black;
-    width: 93.5%;
+    width: 1465px;
     border-radius: 15px;
 }
 
@@ -27,7 +27,7 @@ header {
     border-radius: 15px; 
     max-width: 20%;
     margin-top: 20px;
-    height: 525px;    
+    height: 570px;    
 }
 
 .search_section_box h2 {
@@ -43,6 +43,16 @@ header {
     border-color: white;    
     border-radius: 5px;
 }
+
+.input_state {
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: solid;
+    border-color: white;    
+    border-radius: 5px;
+}
+
 
 .search_button {
     background-color: rgb(115, 133, 192);
@@ -73,7 +83,7 @@ header {
     border-radius: 15px;
     position:absolute;
     left: 375px;
-    width: 70%;
+    width: 1125px;
     top: 120px;
     padding-left: 10px;
 }
@@ -89,15 +99,26 @@ header {
     font-weight: 600;
 }
 
+.fivedayheader {
+    position: absolute;
+    left: 375px;
+    top: 360px;
+    color: rgb(47, 70, 149);
+    font-weight: 700;
+    font-size: 25px;
+}
+
 .five_day_box {
     border: none;
     border-color: black;
     border-radius: 15px;
     position:absolute;
-    left: 375px;
-    width: 70%;
-    top: 350px;
+    left: 360px;
+    top: 435px;
     padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .fiveday {
@@ -107,47 +128,24 @@ header {
     padding-left: 10px;    
 }
 
-.daytwo {
-    position:absolute;
-    width: 150px;    
-}
-
-.daythree {
-    position:absolute;
-    width: 150px;
-    left: 225px; 
-}
-
-.dayfour {
-    position:absolute;
-    width: 150px;
-    left: 450px; 
-}
-
-.dayfive {
-    position:absolute;
-    width: 150px;
-    left: 675px; 
-}
-
-.daysix {
-    position:absolute;
-    width: 150px;
-    left: 900px; 
-}
-
 .five_day_box h3 {
+    position:absolute;
+    top: 200px;
     font-size: 35px;
-    color:rgb(47, 70, 149);
+    color:rgb(47, 70, 149);    
 }
 
 .fiveday {
     background: rgb(115, 133, 192);
     color: white;
-    padding: 0;        
+    padding: 0; 
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px; 
+    flex-wrap: wrap;    
 }
 
-.date {
+.day {
     font-size: 30px;
     text-align: center;
     margin: 5px;  
@@ -162,6 +160,28 @@ i {
 .fiveday p {
    margin-left: 10px; 
 }
+
+.other {
+    padding: 10px;
+}
+
+.history-btn {
+    margin: 10px;
+    font-weight: 600;
+    font-size: large;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    height: 40px;
+    width: 275px;
+}
+
+.history-btn:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
 
 
 
