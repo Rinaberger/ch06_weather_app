@@ -6,7 +6,7 @@ TITLE: Weather Application
 AUTHOR: Scott Rinaberger
 
 LINKS:
-    ** HTTP URL Link: https://rinaberger.github.io/ch05_super_disco/
+    ** HTTP URL Link: https://rinaberger.github.io/ch06_weather_app/
     ** GitHub URL: https://github.com/Rinaberger/ch06_weather_app.git
 
 
